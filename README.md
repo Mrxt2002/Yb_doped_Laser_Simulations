@@ -1,10 +1,6 @@
-Certainly! Here's a professional and technical GitHub README template incorporating the information you provided. You can add animations, pictures, and further customize it as needed for your project.
-
----
-
 # Supercontinuum Generation in Photonic Crystal Fiber
 
-![Supercontinuum Generation](images/supercontinuum.png)
+![Supercontinuum Generation](https://www.bing.com/images/search?view=detailV2&ccid=581xLs8k&id=DD38F0988EE74886C1A4D574101CCFECED47145B&thid=OIP.581xLs8kzemKAKXVaTVEMgHaFz&mediaurl=https%3a%2f%2fwww.intechopen.com%2fmedia%2fchapter%2f48069%2fmedia%2ffig28.png&exph=4262&expw=5437&q=Supercontinuum+Generation+in+Photonic+Crystal+Fiber&simid=608016114039797909&FORM=IRPRST&ck=FFB62903874099D10C577EF5ADCAE344&selectedIndex=10&itb=0)
 
 ## Overview
 
@@ -13,8 +9,6 @@ This repository explores the phenomenon of supercontinuum generation in photonic
 ## Key Features
 
 - **PSD Analysis:** Collaborated with PhD students to analyze PSD variations along the fiber input using MATLAB simulations. Implemented iterative averaging and direct computation methods for accurate PSD normalization.
-  
-- **Visualization:** Utilized logarithmic scale plots and video format to visualize PSD trends across iterations. Animation frames were employed to illustrate dynamic changes over various wavelength ranges.
 
 - **Optical Rogue Waves:** Investigated RWs in nonlinear optical fibers using Gaussian spectrum models. Compared and validated models against experimental supercontinuum spectra to refine predictions under different pumping scenarios.
 
@@ -24,20 +18,22 @@ This repository explores the phenomenon of supercontinuum generation in photonic
 supercontinuum/
 │
 ├── data/
-│   ├── experimental_data.mat
-│   └── simulation_results/
+│   ├── experimental_data.mat        # Experimental data in MATLAB format
+│   └── simulation_results/         # Results from simulations
 │
 ├── scripts/
-│   ├── psd_analysis.m
-│   ├── rw_simulation.m
-│   └── plot_utils.m
+│   ├── psd_analysis.m              # MATLAB script for PSD analysis
+│   ├── rw_simulation.m             # MATLAB script for RW simulation
+│   └── plot_utils.m                # Utility functions for plotting
 │
 ├── images/
-│   ├── supercontinuum.png
-│   └── rw_simulation.gif
+│   ├── supercontinuum.png          # Placeholder for supercontinuum image
+│   ├── rw_simulation.gif           # Placeholder for RW simulation animation
+│   ├── placeholder1.jpg            # Placeholder for additional image
+│   └── placeholder2.gif            # Placeholder for additional animation
 │
-├── README.md
-└── LICENSE
+├── README.md                       # This README file
+└── LICENSE                         # License information
 ```
 
 ## Getting Started
@@ -64,7 +60,7 @@ Run `psd_analysis.m` to perform Power Spectral Density analysis along the PCF in
 
 ```matlab
 % Example code snippet
-load('experimental_data.mat');
+load('data/experimental_data.mat');
 [psd, frequencies] = calculate_psd(data);
 plot_psd(frequencies, psd);
 ```
@@ -77,6 +73,40 @@ Use `rw_simulation.m` to simulate optical rogue waves formation under different 
 % Example code snippet
 results = simulate_rw(pump_parameters);
 visualize_rw(results);
+```
+
+## Adding Animations and Pictures
+
+### Animation 1: Supercontinuum Generation
+
+Include an animation illustrating the supercontinuum generation process here:
+
+```markdown
+![Supercontinuum Animation](images/rw_simulation.gif)
+```
+
+### Animation 2: Optical Rogue Waves Simulation
+
+Add another animation showing the simulation of optical rogue waves:
+
+```markdown
+![RW Simulation Animation](images/placeholder2.gif)
+```
+
+### Picture 1: Experimental Setup
+
+Insert an image depicting the experimental setup or a key component:
+
+```markdown
+![Experimental Setup](images/placeholder1.jpg)
+```
+
+### Picture 2: Results Visualization
+
+Include a picture that showcases visualization of results, such as a plot or graph:
+
+```markdown
+![Results Visualization](images/supercontinuum.png)
 ```
 
 ## Contributing
@@ -94,4 +124,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Feel free to customize the sections further, add more details about specific algorithms used, or include additional images and animations to enhance the README.
+Feel free to customize the sections further, add more details about specific algorithms used, or include additional images and animations to enhance the README. Replace the placeholder paths (`images/placeholder1.jpg`, `images/placeholder2.gif`, etc.) with actual paths or URLs once you have the animations and images ready to be included in your GitHub repository.
