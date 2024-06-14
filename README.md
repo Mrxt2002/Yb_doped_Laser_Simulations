@@ -1,6 +1,6 @@
 # Supercontinuum Generation in Photonic Crystal Fiber
 
-![Supercontinuum Generation](https://www.intechopen.com/media/chapter/48069/media/fig28.png)
+![Supercontinuum Generation](https://www.bing.com/images/search?view=detailV2&ccid=5jNac0R7&id=8A1BE8FF8B0BE02F62C408E6500FEA83A9081120&thid=OIP.5jNac0R7bSVslRAuJ2cyCAHaHH&mediaurl=https%3a%2f%2fai2-s2-public.s3.amazonaws.com%2ffigures%2f2017-08-08%2f29e7e65f8557a12a93561f3e6ea9edfcd0ac78c2%2f1-Figure1-1.png&exph=590&expw=614&q=Supercontinuum+Generation+in+Photonic+Crystal+Fiber&simid=607990494576801660&FORM=IRPRST&ck=2A4254CDC47D162DF18E94FC5975B899&selectedIndex=15&itb=0)
 
 ## Overview
 
@@ -107,7 +107,7 @@ Insert an image depicting the experimental setup or a key component:
 Include a picture that showcases visualization of results, such as a plot or graph:
 
 ```markdown
-![Results Visualization](images/supercontinuum.png)
+![Results Visualization](https://www.intechopen.com/media/chapter/48069/media/fig28.png)
 ```
 
 ## Contributing
@@ -120,9 +120,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 
-- Dr. [Supervisor's Name], Indian Institute of Science (IISc), Bangalore
-- PhD Students [Names], for collaboration and valuable insights
-
----
-
-Feel free to customize the sections further, add more details about specific algorithms used, or include additional images and animations to enhance the README. Replace the placeholder paths (`images/placeholder1.jpg`, `images/placeholder2.gif`, etc.) with actual paths or URLs once you have the animations and images ready to be included in your GitHub repository.
+- Dr. Balaswamy Velpulu, Indian Institute of Science (IISc), Bangalore
+- Meher Vaddi, Shantanu Dambare, for collaboration and valuable insights
