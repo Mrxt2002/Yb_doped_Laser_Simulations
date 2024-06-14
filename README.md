@@ -1,8 +1,9 @@
 # Supercontinuum Generation in Photonic Crystal Fiber
 
-![Supercontinuum Generation](https://www.bing.com/images/search?view=detailV2&ccid=581xLs8k&id=DD38F0988EE74886C1A4D574101CCFECED47145B&thid=OIP.581xLs8kzemKAKXVaTVEMgHaFz&mediaurl=https%3a%2f%2fwww.intechopen.com%2fmedia%2fchapter%2f48069%2fmedia%2ffig28.png&exph=4262&expw=5437&q=Supercontinuum+Generation+in+Photonic+Crystal+Fiber&simid=608016114039797909&FORM=IRPRST&ck=FFB62903874099D10C577EF5ADCAE344&selectedIndex=10&itb=0)
+![Supercontinuum Generation](https://www.intechopen.com/media/chapter/48069/media/fig28.png)
 
 ## Overview
+
 
 This repository explores the phenomenon of supercontinuum generation in photonic crystal fibers (PCFs), focusing on Power Spectral Density (PSD) variations and optical rogue waves (RWs) formation under different pumping conditions. It includes MATLAB simulations and experimental data analysis to validate theoretical models against practical results.
 
